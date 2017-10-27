@@ -38,13 +38,13 @@ body {
 }
 
 .two {
-  background-color: #263238;
+  background-color: #263238; 
   color: #f1f1f1;
   padding: 200px 0 200px 0;
 }
 
 .pellucid-app {
-  background-image: linear-gradient(-180deg, #263238, #263238 26%, #f1f1f1 26%, #f1f1f1);
+  background-image: linear-gradient(-180deg, #263238, #263238 33%, #f1f1f1 33%, #f1f1f1);
   padding: 0 0 100px 0;
 }
 
@@ -122,6 +122,9 @@ body {
   border-bottom: 1px dotted #fff; 
 }
 
+hr {
+  border-top: 1px dotted #848d96 }
+
 .split-intro {
   font-weight: 600;
   font-size: 64px;
@@ -166,11 +169,11 @@ body {
   .split-lists .split-list h3 {
     font-weight: 400;
     text-transform: uppercase;
-    font-size: 11px;
-    line-height: 11px;
+    font-size: 16px;
+    line-height: 16px;
     margin-bottom: 31px;
     color: #848d96;
-    letter-spacing: 2px;
+    letter-spacing: .4px;
     opacity: 0.5; }
   .split-lists .split-list ul {
     list-style: none; }
