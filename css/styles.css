@@ -10,10 +10,9 @@
     opacity: 1; } }
 
 body {
-  background-color: #263238;
+  background-color: #272822;
   font-family: 'Montserrat', sans-serif;
   font-size: 21px;
-  font-weight: 100px;
   -webkit-font-smoothing: antialiased;
   line-height: 33px;
   letter-spacing: -0.2px;
@@ -38,18 +37,18 @@ body {
 }
 
 .two {
-  background-color: #263238; 
+  background-color: #272822; 
   color: #f1f1f1;
   padding: 200px 0 200px 0;
 }
 
 .pellucid-app {
-  background-image: linear-gradient(-180deg, #263238, #263238 33%, #f1f1f1 33%, #f1f1f1);
+  background-image: linear-gradient(-180deg, #272822, #272822 33%, #f1f1f1 33%, #f1f1f1);
   padding: 0 0 100px 0;
 }
 
 .pellucid-website {
-  background-image: linear-gradient(-180deg, #f1f1f1 10%,  #BDBDC1 40%, #878690 80%);
+  background-image: linear-gradient(-180deg, #f1f1f1 10%,  #e6e6e6 40%, #e6e6e6 80%);
   color: #f1f1f1;
   padding: 100px 0 200px 0;
 }
@@ -99,7 +98,7 @@ body {
   color: #fff;
   text-decoration: none;
   transition-duration: 0.1s;
-  border-bottom: 1px dotted #448aff; 
+  border-bottom: 1px dotted #60D9F1; 
 }
 
 .footer .tagline a:hover {
@@ -113,13 +112,13 @@ body {
   color: #f1f1f1;
   text-decoration: none;
   transition-duration: 0.1s;
-  border-bottom: 1px dotted #448aff; 
+  border-bottom: 1px dotted #60D9F1; 
 }
 
 .footer .split-bio a:hover {
-  color: #ff5252;
-  transition-duration: 0.1s;
-  border-bottom: 1px dotted #fff; 
+  color: #000;
+  transition-duration: 0.5ms;
+  background-color: #60D9F1; 
 }
 
 hr {
@@ -128,7 +127,7 @@ hr {
 .split-intro {
   font-weight: 600;
   font-size: 64px;
-  line-height: 80px;
+  line-height: 72px;
   letter-spacing: -2px; }
   .split-intro h1 {
     font-weight: 400;
@@ -137,7 +136,7 @@ hr {
     line-height: 16px;
     margin-bottom: 10px;
     letter-spacing: 0.4px;
-    color: #448aff; }
+    color: #60D9F1; }
   .split-intro .tagline {
     color: #f1f1f1; }
   .one .split-intro .tagline {
@@ -146,7 +145,7 @@ hr {
 
 .split-bio {
   padding: 40px 0 0 0;
-  font-family: 'Lora', serif; }
+  font-family: 'IBM Plex Mono', monospace; }
   @media (max-width: 1200px) {
     .split-bio {
       padding: 30px 0; } }
@@ -154,17 +153,17 @@ hr {
     .split-bio {
       padding: 20px 0; } }
   .split-bio ul li {
-    color: #848d96; }
+    color: #60D9F1; }
   .split-bio p {
     color: #848d96; }
   .split-bio a {
     color: #848d96;
-    transition-duration: 0.5s;
-    border-bottom: 1px dotted #848d96; }
+    transition-duration: 0.5ms;
+    border-bottom: 1px dotted #60D9F1; }
     .split-bio a:hover {
       color: #ff8a80;
-      transition-duration: 0.1s;
-      border-bottom: 1px dotted #ff8a80; }
+      transition-duration: 0.5ms;
+      background-color: #60D9F1; }
 
   .split-lists .split-list h3 {
     font-weight: 400;
@@ -180,13 +179,15 @@ hr {
   .split-lists .split-list ul li {
     font-size: 16px;
     line-height: 16px;
-    margin-bottom: 12px; }
+    margin-bottom: 12px;
+    font-family: 'IBM Plex Mono', monospace;
+    letter-spacing: .3px; }
     .split-lists .split-list ul li a {
       color: #f1f1f1;
-      transition-duration: 0.5s;
+      transition-duration: 0.5ms;
       text-decoration: none;
-      border-bottom: 1px dotted #448aff; }
+      border-bottom: 1px dotted #60D9F1; }
       .split-lists .split-list ul li a:hover {
-        color: #ff5252;
-        transition-duration: 0.1s;
-        border-bottom: 1px dotted #f1f1f1; }
+        color: #000;
+        transition-duration: 0.5ms;
+        background-color: #60D9F1 }
