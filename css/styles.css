@@ -12,10 +12,9 @@
 body {
   background-color: #272822;
   font-family: 'Montserrat', sans-serif;
-  font-size: 21px;
+  font-size: 16px;
   -webkit-font-smoothing: antialiased;
-  line-height: 33px;
-  letter-spacing: -0.2px;
+  line-height: 24px;
   color: #f1f1f1;
   -webkit-animation: fadein 2s;
           animation: fadein 2s; }
@@ -33,7 +32,7 @@ body {
 .one {
   background-color: #f1f1f1;
   color: #263238;
-  padding: 200px 0 200px 0;
+  padding: 100px 0 100px 0;
 }
 
 .two {
@@ -43,20 +42,69 @@ body {
 }
 
 .pellucid-app {
-  background-image: linear-gradient(-180deg, #272822, #272822 33%, #f1f1f1 33%, #f1f1f1);
-  padding: 0 0 100px 0;
+  background-image: linear-gradient(-180deg, #272822, #272822 55%, #f1f1f1 55%, #f1f1f1);
+  padding: 0 0 50px 0;
 }
+
+.product-guide {
+  background-color: #FFFCF9;
+  background-image: url(../images/NBM-network-1@2x.png);
+  background-position: right bottom -50px;
+  background-repeat: no-repeat;
+  background-size: 650px 515px; }
+
+  .product-guide .split-bio {
+    width: 40%
+  }
+
+  @media (max-width: 1080px) {
+    .product-guide {
+      background-position: right -200px center; 
+    } 
+    .product-guide .split-intro {
+      width: 50%;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .product-guide {
+      background-position: bottom center; 
+      padding-bottom: 500px;
+    } 
+    .product-guide .split-intro {
+      width: 50%;
+    }
+    .product-guide .split-bio {
+      width: 100%
+    }
+  }
+
+  @media (max-width: 500px) {
+    .product-guide {
+      background-position: bottom center; 
+      padding-bottom: 350px;
+      background-size: 100%;
+    } 
+  }
+
+  @media (max-width: 400px) {
+    .product-guide {
+      background-position: bottom center; 
+      padding-bottom: 280px;
+      background-size: 100%;
+    } 
+  }
 
 .pellucid-website {
   background-image: linear-gradient(-180deg, #f1f1f1 10%,  #e6e6e6 40%, #e6e6e6 80%);
   color: #f1f1f1;
-  padding: 100px 0 200px 0;
+  padding: 50px 0 100px 0;
 }
 
 .nbm-website {
   background-image: linear-gradient(-180deg, #f1f1f1, #f1f1f1 40%, #fff 50%, #fff);
   color: #f1f1f1;
-  padding: 100px 0 200px 0;
+  padding: 100px 0 100px 0;
 }
 
 
