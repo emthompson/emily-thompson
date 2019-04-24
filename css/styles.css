@@ -124,9 +124,17 @@ body {
   }
 
 .image-grid img {
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.50);
   transition: all 0.5s ease;
   margin-bottom: 30px;
   border-radius: 5px;
+}
+
+.image-grid img:hover{
+  box-shadow: 0 0 50px 0 rgba(0,0,0,0.50);
+  box-sizing: 300px;
+  top: -3px;
+  position: relative;
 }
 
 .footer a {
